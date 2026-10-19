@@ -15,7 +15,7 @@ local quat = ml.quat
 local ml_utils = ml.utils
 
 local tips = {
-	{ text = "Debug BVH (press Q): ", key = 'q', boolean = true },
+	{ text = "Debug BVH (press Z): ", key = 'z', boolean = true },
 }
 
 local scene = menori.Scene:extend('raycast_bvh_scene')
